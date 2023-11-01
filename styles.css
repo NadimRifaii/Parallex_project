@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+p {
+  font-size: 18px;
+}
+
+.justice-league .box a {
+  background-color: transparent;
+}
+
+.justice-league {
+  background-image: url('./assets/justice_league_background.jpg');
+}
+
+
+.superman_background {
+  background-image: url('./assets/superman_1.jpg');
+}
+
+.batman_background {
+  background-image: url('./assets/batman_background.jpg');
+}
+
+.wonderWoman_background {
+  background-image: url('./assets/wonder_woman_background.png');
+}
+
+.flash_background {
+  background-image: url('./assets/flash_background.jpg')
+}
+
+.aquaman_background {
+  background-image: url('./assets/aquaman_background.jpg')
+}
+
+.cyborg_background {
+  background-image: url('./assets/cyborg_background.jpg')
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c3d6d482;
+  color: black;
+  min-width: 360px;
+  border-radius: 3px;
+}
+
+.box h1 {
+  width: fit-content;
+  margin: auto;
+}
+
+
+
+.justice-league .box {
+  background-color: #13131b;
+}
+
+.justice-leauge .box a {
+  color: white;
+}
+
+.superman_background .box {
+  background-color: #c3d6d482;
+}
+
+.batman_background .box {
+  background-color: #f10408ab;
+}
+
+.batman_background .box h1,
+.batman_background .box h2 {
+  color: #f6f7fd
+}
+
+.batman_background .box p,
+.batman_background .box li,
+.batman_background a {
+  color: white;
+}
+
+.box a {
+  display: block;
+  padding: 5px;
+  background-color: black;
+  border-radius: 6px;
+  width: fit-content;
+  margin: auto;
+  color: white;
+}
+
+.box .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width:992px) {
+  .box .info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box .info .powers h2 {
+    text-align: center;
+  }
+
+  .box a {
+    margin-left: auto;
+  }
+
+  .box .powers ul {
+    text-align: left
+  }
+}
+
+.box .info .description {
+  flex-basis: 50%;
+}
+
+
+
+.box .info .powers ul {
+  list-style: none;
+}
+
+.box .powers li {
+  padding: 10px 5px;
+  font-size: 18px;
+}
