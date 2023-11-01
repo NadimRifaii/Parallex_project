@@ -156,3 +156,14 @@ a {
   padding: 10px 5px;
   font-size: 18px;
 }
+
+.cyborg_background .box {
+  background-color: #0098ab9e;
+  color: #d7d5d7;
+}
+
+
+.aquaman_background .box {
+  background-color: rgb(96 71 60 / 58%);
+  color: white;
+}
