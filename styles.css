@@ -157,26 +157,16 @@ a {
   font-size: 18px;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-.wonderWoman_background .box{
+.wonderWoman_background .box {
   background-color: #de893896;
   color: white;
 }
 
-.flash_background .box{
+.flash_background .box {
   background-color: #2e0707a8;
-=======
+  color: white;
+}
+
 .cyborg_background .box {
   background-color: #0098ab9e;
   color: #d7d5d7;
@@ -185,6 +175,5 @@ a {
 
 .aquaman_background .box {
   background-color: rgb(96 71 60 / 58%);
->>>>>>> Ali_branch
   color: white;
 }
